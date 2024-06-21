@@ -1,2 +1,1 @@
-enquiry = input("how are you? ")
-print(enquiry)
+print("hello world")
