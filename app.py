@@ -1,2 +1,2 @@
-read = input("how are you? ")
-print(read)
+enquiry = input("how are you? ")
+print(enquiry)
