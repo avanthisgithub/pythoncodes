@@ -1,14 +1,15 @@
-#weight converter program
-weight = float(input("Enter your weight: "))
-unit  = str(input("Have you entered weight in kg or lbs? "))
-if unit.lower() == "kg":
-    lbs = str(weight * 0.453592)
-    print("Your weight in lbs is " + lbs)
-elif unit.lower() == "lbs":
-    kg = str(weight * 2.20462)
-    print("Your weight in kg is " + kg)
+#guessing game
+guessing_number = 5
+i = 1
+guess_limit = 3
+while i <= guess_limit:
+    guess = int(input('guess: '))
+    i = i + 1
+    if guess == guessing_number:
+        print('wow! U guessed correctly!!')
+        break
 else:
-    print("error")
+    print("Wrong guess:)")
 
 
 
