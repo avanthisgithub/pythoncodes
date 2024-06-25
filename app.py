@@ -1,2 +1,2 @@
-print("hello world")
-print(input("what is your name? "))
+x = 2.5
+print(round(x))
